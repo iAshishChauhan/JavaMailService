@@ -14,10 +14,11 @@ import java.util.Date;
 public class MailDto {
 
     long orderNumber;
+    String userEmail;
     int quantity;
-    long price;
+    long unitPrice;
     String productName;
     Date orderDate;
     String imageLink;
-
+    long totalPrice;
 }

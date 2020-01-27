@@ -16,7 +16,7 @@ public class Controller {
 
     @GetMapping("/send")
     void sendConfirmationMail() throws MessagingException {
-        mailService.sendEmail();
+//        mailService.sendEmail();
     }
 
 
